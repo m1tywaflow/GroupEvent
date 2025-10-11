@@ -1,0 +1,53 @@
+import React from "react";
+import heroImage from "../../assets/hero-1.jpg";
+
+const HeroSection: React.FC = () => {
+  return (
+    <section
+      className="relative h-screen bg-cover text-white flex flex-col justify-between font-[righteous]"
+      style={{
+        backgroundImage: `url(${heroImage})`,
+        backgroundPosition: "center top",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <nav className="flex justify-between p-8 text-xl font-semibold">
+        <div>
+          <h1 className="text-4xl">Home</h1>
+        </div>
+
+        <div className="text-center">
+          <h1 className="text-5xl font-bold">
+            Running
+            <br />
+            for
+            <br />
+            Change
+          </h1>
+        </div>
+
+        <div className="text-right space-y-2">
+          <p className="text-4xl">About Us</p>
+          <p className="text-4xl">Events</p>
+        </div>
+      </nav>
+
+      <div className="bg-black/60 text-xl p-4 m-6 rounded-md max-w-md">
+        <div className="flex justify-between">
+          <span>Location:</span>
+          <span>Green Bay Trail, Glencoe, IL</span>
+        </div>
+        <div className="flex justify-between">
+          <span>Date:</span>
+          <span>May 12, 2025</span>
+        </div>
+        <div className="flex justify-between">
+          <span>Time:</span>
+          <span>6 AM - NOON</span>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
