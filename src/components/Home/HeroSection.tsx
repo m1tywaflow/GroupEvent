@@ -32,18 +32,25 @@ const HeroSection: React.FC = () => {
         </div>
       </nav>
 
-      <div className="bg-black/60 text-xl p-4 m-6 rounded-md max-w-md">
-        <div className="flex justify-between">
-          <span>Location:</span>
-          <span>Green Bay Trail, Glencoe, IL</span>
+      <div className="flex justify-between">
+        <div className="bg-black/60 text-xl p-4 m-6 rounded-md max-w-md">
+          <div className="flex justify-between">
+            <span>Location:</span>
+            <span>Green Bay Trail, Glencoe, IL</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Date:</span>
+            <span>May 12, 2025</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Time:</span>
+            <span>6 AM - NOON</span>
+          </div>
         </div>
-        <div className="flex justify-between">
-          <span>Date:</span>
-          <span>May 12, 2025</span>
-        </div>
-        <div className="flex justify-between">
-          <span>Time:</span>
-          <span>6 AM - NOON</span>
+        <div className="pt-20">
+          <button className="w-30 h-10 text-black font-bold bg-[#95FF8D] rounded-2xl hover:bg-green-900 duration-200 transition">
+            REGISTER
+          </button>
         </div>
       </div>
     </section>
