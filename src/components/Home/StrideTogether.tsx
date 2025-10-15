@@ -10,7 +10,6 @@ const StrideTogether: React.FC = () => {
         backgroundImage: `url(${strideImg})`,
       }}
     >
-      {/* Центральный блок с затемнением */}
       <div className="bg-[#1D1D1D]/90 px-8 py-16 text-center rounded-xl w-full mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Stride Together, <br /> Shape Tomorrow.
