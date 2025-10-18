@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
         <div className="pt-20">
-          <button className="w-30 h-10 text-black font-bold bg-[#95FF8D] rounded-2xl hover:bg-green-900 duration-200 transition">
+          <button className="w-30 h-10 text-black font-bold bg-[#95FF8D] rounded-2xl hover:bg-green-900 duration-200 transition cursor-pointer">
             REGISTER
           </button>
         </div>

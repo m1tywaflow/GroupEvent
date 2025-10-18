@@ -20,7 +20,7 @@ const StrideTogether: React.FC = () => {
           community, one step at a time.
         </p>
 
-        <button className="bg-[#404040] text-[#95FF8D] font-semibold py-2 px-6 rounded-full flex items-center justify-center mx-auto gap-2 underline hover:bg-[#95FF8D] hover:text-[#404040] transition duration-200">
+        <button className="bg-[#404040] cursor-pointer text-[#95FF8D] font-semibold py-2 px-6 rounded-full flex items-center justify-center mx-auto gap-2 underline hover:bg-[#95FF8D] hover:text-[#404040] transition duration-200">
           NEWSLETTER
           <ArrowUpRight className="w-5 h-5" />
         </button>
