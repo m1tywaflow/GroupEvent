@@ -3,6 +3,7 @@ import HeroSection from "../../components/Home/HeroSection";
 import StrideTogether from "../../components/Home/StrideTogether";
 import SplitSection from "../../components/Home/SplitSection";
 import TextSection from "../../components/Home/TextSection";
+import FooterSection from "../../components/Home/FooterSection";
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
       <StrideTogether />
       <SplitSection />
       <TextSection />
+      <FooterSection />
     </>
   );
 };
