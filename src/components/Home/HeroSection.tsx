@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import heroImage from "../../assets/hero-1.jpg";
 
 const HeroSection: React.FC = () => {
@@ -13,7 +14,9 @@ const HeroSection: React.FC = () => {
     >
       <nav className="flex justify-between p-8 text-xl font-semibold">
         <div>
-          <h1 className="text-4xl">Home</h1>
+          <Link to="/" className="text-4xl hover:text-[#95FF8D] transition">
+            Home
+          </Link>
         </div>
 
         <div className="text-center">
@@ -27,8 +30,12 @@ const HeroSection: React.FC = () => {
         </div>
 
         <div className="text-right space-y-2">
-          <p className="text-4xl">About Us</p>
-          <p className="text-4xl">Events</p>
+          <Link
+            to="/about"
+            className="text-4xl block hover:text-[#95FF8D] transition"
+          >
+            About Us
+          </Link>
         </div>
       </nav>
 
