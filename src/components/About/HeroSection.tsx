@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import heroAbout from "../../assets/heroAbout.png";
 export default function HeroSection() {

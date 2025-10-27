@@ -1,4 +1,4 @@
-import React from "react";
+
 import leftImg from "../../assets/left.png";
 import { MoveUpRight } from "lucide-react";
 const SplitSection: React.FC = () => {

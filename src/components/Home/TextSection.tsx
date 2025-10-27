@@ -1,4 +1,4 @@
-import React from "react";
+
 import { MoveUpRight } from "lucide-react";
 
 const TextSection: React.FC = () => {

@@ -1,5 +1,4 @@
-import React from "react";
-import strideImg from "../../assets/stridetogether-1.png";
+import strideImg from "../../assets/strideImg.png";
 import { ArrowUpRight } from "lucide-react";
 
 const StrideTogether: React.FC = () => {

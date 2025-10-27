@@ -1,7 +1,5 @@
-import React from "react";
 import footerImg from "../../assets/footer.png";
 import { Instagram, Twitter, Facebook } from "lucide-react";
-
 export default function FooterSection() {
   return (
     <section
@@ -29,19 +27,18 @@ export default function FooterSection() {
             <div className="flex justify-end gap-2 mt-1">
               <Instagram
                 size={18}
-                className="cursor-pointer bg-white text-black"
+                className="cursor-pointer bg-white text-black hover:bg-green-600 duration-200 transition"
               />
               <Twitter
                 size={18}
-                className="cursor-pointer bg-white text-black"
+                className="cursor-pointer bg-white text-black hover:bg-green-600 duration-200 transition"
               />
               <Facebook
                 size={18}
-                className="cursor-pointer bg-white text-black"
+                className="cursor-pointer bg-white text-black hover:bg-green-600 duration-200 transition"
               />
             </div>
           </div>
-
           <div>
             <p className="font-bold">New Fundraiser</p>
             <p className="text-xs leading-snug">
