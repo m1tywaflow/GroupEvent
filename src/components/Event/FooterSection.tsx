@@ -1,14 +1,8 @@
-import footerImg from "../../assets/footer.png";
 import { Instagram, Twitter, Facebook } from "lucide-react";
+
 export default function FooterSection() {
   return (
-    <footer
-      className="relative h-screen bg-cover bg-center text-white flex flex-col justify-between"
-      style={{
-        backgroundImage: `url(${footerImg})`,
-      }}
-    >
-      <div className="absolute inset-0 bg-black/50" />
+    <footer className="relative h-screen bg-cover bg-center text-black flex flex-col justify-between bg-[#95FF8D]">
       <div className="relative z-10 flex justify-between px-10 md:px-20 pt-10 text-sm font-mono">
         <div className="space-y-4">
           <div>
@@ -25,18 +19,9 @@ export default function FooterSection() {
           <div>
             <p className="font-bold">Socials</p>
             <div className="flex justify-end gap-2 mt-1">
-              <Instagram
-                size={18}
-                className="cursor-pointer bg-white text-black hover:bg-green-600 duration-200 transition"
-              />
-              <Twitter
-                size={18}
-                className="cursor-pointer bg-white text-black hover:bg-green-600 duration-200 transition"
-              />
-              <Facebook
-                size={18}
-                className="cursor-pointer bg-white text-black hover:bg-green-600 duration-200 transition"
-              />
+              <Instagram size={18} className="cursor-pointer text-black hover:text-green-600 transition duration-200" />
+              <Twitter size={18} className="cursor-pointer text-black hover:text-green-600 transition duration-200" />
+              <Facebook size={18} className="cursor-pointer text-black hover:text-green-600 transition duration-200" />
             </div>
           </div>
           <div>
@@ -48,8 +33,9 @@ export default function FooterSection() {
           </div>
         </div>
       </div>
+
       <div className="relative px-6 md:px-16 pb-10 text-center">
-        <h1 className="text-6xl md:text-9xl font-[righteous] font-bold leading-tight">
+        <h1 className="text-6xl md:text-9xl font-[righteous] font-bold leading-tight text-black">
           Running For Change
         </h1>
       </div>
